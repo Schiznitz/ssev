@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:yakkety
 
 RUN add-apt-repository -y ppa:max-c-lv/shadowsocks-libev
 RUN apt-get update
